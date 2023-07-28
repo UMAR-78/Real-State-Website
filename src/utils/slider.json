@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Greenwood Residences",
+    "price": "47,043",
+    "detail": "123 Greenwood Avenue, Cityville, State, Country",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Meadow View Villas",
+    "price": "66,353",
+    "detail": "456 Meadow Street, Countryside, State, Country",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Skyline Towers",
+    "price": "35,853",
+    "detail": "789 Skyline Boulevard, Metropolis, State, Country",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Tranquil Valley Residences",
+    "price": "47,043",
+    "detail": "234 Tranquil Road, Serenity Town, State, Country",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Riverside Estates",
+    "price": "66,353",
+    "detail": "567 Riverside Drive, Waterside City, State, Country",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Ocean View Apartments",
+    "price": "35,853",
+    "detail": "890 Ocean Avenue, Coastal Town, State, Country",
+    "image": "./r3.png"
+  }
+]

@@ -1,0 +1,32 @@
+.f-container{
+    justify-content: space-between;
+}
+.f-left
+{
+    gap: 1rem;
+}
+
+.f-menus
+{
+    margin-top: 2rem;
+}
+.f-menus a{
+
+    padding: 6px;
+    font-weight: 600;
+text-align: center;
+}
+
+@media(max-width:768px)
+{
+    .f-container
+    {
+
+        justify-content: center;
+    }
+    .f-container>div
+    {
+        align-items: center !important;
+        text-align: center;
+    }
+}
