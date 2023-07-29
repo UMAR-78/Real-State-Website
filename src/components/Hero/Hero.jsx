@@ -40,7 +40,7 @@ const Hero = () => {
                 duration: 2,
                 type:'spring'
               }}>
-              <HiLocationMarker color="var(--blue)" size={25} />
+              <HiLocationMarker className="icon" color="var(--blue)" size={35} />
               <input type="text" />
               <motion.button className="button"
     
