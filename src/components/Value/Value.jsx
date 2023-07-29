@@ -11,6 +11,8 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./Value.css";
 import data from "../../utils/accordian";
+import {motion} from 'framer-motion'
+
 
 const Value = () => {
   const [className, setClassName] = useState(null);
@@ -20,9 +22,17 @@ const Value = () => {
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">
-          <div className="image-container">
+          <motion.div className="image-container"
+            initial = {{x:'-17rem' , opacity: 0}}
+            animate ={{x:0 , opacity: 1}}
+            transition={{
+              delay:0,
+              duration: 2,
+              type:'ease-in'
+            }}
+          >
             <img src="./value.png" alt="HeroImage" />
-          </div>
+          </motion.div>
         </div>
 
         {/* right side */}
