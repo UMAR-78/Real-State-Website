@@ -18,7 +18,7 @@ const Value = () => {
   const [className, setClassName] = useState(null);
 
   return (
-    <section className="v-wrapper">
+    <section className="v-wrapper" id="values">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">

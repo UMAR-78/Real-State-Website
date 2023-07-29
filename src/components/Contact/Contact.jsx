@@ -5,7 +5,7 @@ import {MdCall} from "react-icons/md"
 import {HiMiniChatBubbleBottomCenter} from 'react-icons/hi2'
 const Contact = () => {
   return (
-    <section className="c-wrapper">
+    <section className="c-wrapper" id="contact">
       <div className="paddings innerWidth flexCenter c-container">
         {/* LEFT SIDE */}
         <div className="flexColStart c-left">
