@@ -122,7 +122,5 @@
 }
 @media(max-width : 640px)
 {
-    .search-bar{
-      display: none;
-    }
+    
 }

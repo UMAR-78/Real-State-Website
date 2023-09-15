@@ -20,7 +20,7 @@ const Footer = () => {
           <span className="secondaryText">145 , New York , FL 4571 , USA</span>
 
           <div className="f-menus">
-            <a href="#">Propety</a>
+            <a href="#">Property</a>
             <a href="#">Service</a>
             <a href="#">Product</a>
             <a href="#">About Us</a>
