@@ -48,8 +48,9 @@ const Hero = () => {
                 size={35}
               />
               <input type="text" />
-              <button className="button">Search</button>
+              <button className="button searchbutton">Search</button>
             </motion.div>
+
 
             <div className="flexCenter stats">
               <div className="flexColCenter stat">
