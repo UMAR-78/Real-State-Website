@@ -43,7 +43,7 @@ const Hero = () => {
               }}
             >
               <HiLocationMarker
-                className="icon"
+                className="icon Searchicon"
                 color="var(--blue)"
                 size={35}
               />
