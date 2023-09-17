@@ -1,98 +1,58 @@
-.r-container{
-    overflow: hidden;
-    position: relative;
+.r-container {
+  overflow: hidden;
+  position: relative;
 }
-.r-head
-{
-    margin-bottom: 1rem;
+.r-head {
+  margin-bottom: 1rem;
+}
+.r-card {
+  gap: 0.6rem;
+  padding: 3rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+  margin-bottom: 2rem;
 
 }
-.r-card
-{
-    gap: 0.6rem;
-    padding: 1rem;
-    border-radius: 10px;
-    max-width: max-content;
-    margin: auto;
-    transition:all 300ms ease-in;
-    margin-bottom: 2rem;
+.text {
+  display: flex;
+  flex-direction: column;
 }
-.r-card>img
-{
+.r-card > img {
   width: 100%;
-  max-width: 15rem;   
+  max-width: 15rem;
 }
-.r-card>:nth-child(2)
-{
-    font-size: 1.2rem;
-    font-weight: 600;
+.r-card .text :nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
-.r-card>:nth-child(3)
-{
-    font-size:1.2rem;
-        width: 15rem;
+.r-card .text :nth-child(2) {
+  font-size: 1.2rem;
+  width: 15rem;
 }
-.r-card>:nth-child(4)
-{
-    font-size: 0.8rem;
-    width: 15rem;
+.r-card .text :nth-child(3) {
+  font-size: 0.8rem;
+  width: 15rem;
 }
-.r-card:hover{
-    scale: 1.025;
-    cursor: pointer;
-    background: linear-gradient(
-        180deg , rgba(255,255,255,0) 0% ,
-        rgba(136,160,255,0.46) 217.91%
-    );
-    box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21);
-}
-.swiper-horizontal
-{
-    overflow: hidden;
+.r-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(136, 160, 255, 0.46) 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
 }
 
-
-.dollarsigin
-{
-    color: orange;
-}
-.r-btn
-{
-    position: absolute;
-    gap: 1rem;
-    top: 500px; 
-    margin-left: 34rem;
-
-}
-.r-btn>button
-{
-    padding: 0.2rem 0.8rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    color: blue;
-    background-color: white;
-}
-.r-btn>:nth-child(1)
-{
-    background-color: #EEEEFF;
+.dollarsigin {
+  color: orange;
 }
 
-.r-btn>:nth-child(2)
-{
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-}
+@media (max-width: 640px) {
+  .r-head {
+    align-items: center;
+  }
 
-@media (max-width: 640px)
-{
-    .r-head
-    {
-        align-items: center;
-    }
-    .r-btn
-    {
-        /* position: initial; */
-    }
 }
